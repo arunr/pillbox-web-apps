@@ -1,0 +1,35 @@
+body {
+    background-image: url("../images/bily_pattern_blue.png");
+    background-color: #fffff;
+}
+
+@font-face {
+    font-family: 'Myriad';
+    src: URL('../fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'Folks';
+    src: URL('../fonts/Folks-Light/Folks-Light.ttf') format('truetype');
+}
+
+
+span, div, p, li, a, h1, h2, h3, h4, button, input, label, input, .item-content, select, option {
+    font-family: 'Myriad', sans-serif;
+    color: white;
+}
+
+a:visited, a:hover, a:active, a:link {
+	text-decoration: none;
+	color: #F10D40;
+}
+
+.user {
+	font-size: smaller;
+/*	font-size:10px;
+	color: green;
+	text-decoration: none;
+	text-transform: none;
+	padding-top: -25px;
+	margin-top:-25px;*/
+}
