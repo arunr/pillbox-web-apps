@@ -14,8 +14,27 @@ body {
 }
 
 
+.scripthead {
+	font-family: 'Pacifico', cursive;
+	color: #FF735D;
+}
+.scripthead2 {
+	font-family: 'Folks', cursive;
+	margin-top: -10px;
+}
+
+.scriptpara {
+	padding-top: 10px;
+	font-family: 'Folks', cursive;
+	font-size: 16px;
+}
+.block {
+	background-color: white;
+	padding: 2px;
+}
+
 span, div, p, li, a, h1, h2, h3, h4, button, input, label, input, .item-content, select, option {
-    font-family: 'Myriad', sans-serif;
+    font-family: 'Folks', sans-serif;
     color: white;
 }
 
